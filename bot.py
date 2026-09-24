@@ -30,6 +30,5 @@ def check_prices():
         print(f"Error checking price: {e}")
 
 if __name__ == "__main__":
-    while True:
-        check_prices()
-        time.sleep(10)  # Checks every 10 seconds continuously 24/7
+    check_prices()
+        
